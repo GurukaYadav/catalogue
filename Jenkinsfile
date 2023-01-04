@@ -1,22 +1,22 @@
-// @Library('jenkins-shared-library@main') _
+@Library('jenkins-shared-library@main') _
+env.COMPONENT='catalogue'
+nodejs()
+
+
+
+
+
+// pipeline {
+//   agent any
 //
-// nodejs()
-
-
-
-
-
-pipeline {
-  agent any
-
-  stages {
-    stage('Download Dependencies') {
-      steps {
-        sh 'npm install'
-      }
-    }
-
-  }
-
-
-}
+//   stages {
+//     stage('Download Dependencies') {
+//       steps {
+//         sh 'npm install'
+//       }
+//     }
+//
+//   }
+//
+//
+// }
