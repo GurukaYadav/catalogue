@@ -14,5 +14,5 @@ resources:
       name: GurukaYadav/roboshop-azure-devops-templates
       endpoint: GurukaYadav
 
-jobs:
+stages:
   - template: nodejs.yml@templates
