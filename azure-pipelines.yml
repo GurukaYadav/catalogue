@@ -1,5 +1,6 @@
-parameters:
-  - COMPONENT: catalogue
+variables:
+  COMPONENT: 'catalogue'
+
 
 resources:
   repositories:
