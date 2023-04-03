@@ -1,12 +1,18 @@
+trigger:
+  - main
+
+pool: slave
+
+
 variables:
   COMPONENT: 'catalogue'
-
 
 resources:
   repositories:
     - repository: templates
       type: github
       name: GurukaYadav/roboshop-azure-devops-templates
+      endpoint: GurukaYadav
 
 jobs:
   - template: nodejs.yml@templates
