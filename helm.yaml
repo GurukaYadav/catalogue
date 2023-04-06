@@ -1,1 +1,3 @@
 appName: catalogue
+service:
+  targetPort: 8080
