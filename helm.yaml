@@ -1,4 +1,4 @@
 appName: catalogue
 service:
   type: ClusterIP
-  targetPort: 8080
+  port: 8080
