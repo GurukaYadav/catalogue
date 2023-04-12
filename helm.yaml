@@ -8,7 +8,7 @@ configMap:
   enabled: true
   data:
     DOCUMENTDB: "true"
-externalSecrets:
+externalSecret:
   enabled: true
 
 
