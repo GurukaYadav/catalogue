@@ -27,7 +27,7 @@ hpa:
   min: 2
   max: 10
   cpuAvg: 80
-  
+
 probes:
   liveness:
     port: 8080
